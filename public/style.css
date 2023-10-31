@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    flex-direction: column;
+   
+    background-color: rgba(215, 232, 243, 0.819);
+}
+.chat-app{
+    width:90%;
+    height:70%;
+    border:1px solid black;
+   background: rgb(209, 234, 240);
+}
+.input{
+    width:70%;
+    padding:10px;
+    position:absolute;
+    bottom:10%;
+}
+.btn{
+   
+    font-size: 2rem;
+    background-color: rgb(171, 171, 224);
+    width:15%;
+    
+    position:absolute;
+    bottom:10%;
+    right:11%;
+
+}
+.system-message{
+    color:black;
+font-size: 25px;
+}
